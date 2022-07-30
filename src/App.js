@@ -7,13 +7,13 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Contactus from './Pages/Contactus';
+import Contact from './Pages/Contact';
 
 function App() {
   return (
     <div className="App">
    {/* <Home/> */}
-   <Contactus/>
+   <Contact/>
     </div>
   );
 }
