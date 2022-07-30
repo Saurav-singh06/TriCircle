@@ -1,12 +1,19 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import CardDetail from './components/CardDetail'
+import Home from './Pages/Home';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Contactus from './Pages/Contactus';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <CardDetail/>
+   {/* <Home/> */}
+   <Contactus/>
     </div>
   );
 }
